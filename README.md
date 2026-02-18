@@ -1,34 +1,24 @@
 # 📌 LiterAlura
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![POO](https://img.shields.io/badge/POO-007396?style=for-the-badge&logo=java&logoColor=white)
 
 > O LiterAlura é um sistema de livros onde é possível realizar consultas, adionar e filtrar livros. O programa utiliza a API gutendex para a obtenção de dados.
 
----
-
-## 📋 Índice
-
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Como Executar](#como-executar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Desafios](#desafios)
-- [Melhorias Futuras](#melhorias-futuras)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-
----
 
 ## 📖 Sobre
 
-Descreva aqui com mais detalhes o propósito do projeto, contexto e motivação para criá-lo.
-
+O LiterAlura é um projeto proposto pelo programa One da oracle através da plataforma Alura, o projeto consiste na criacão de um catálogo de livros com algumas funcionalidades.
 ---
 
 ## ✅ Funcionalidades
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] Funcionalidade 3
+- [ ] Funcionalidade 1 - Buscar livros da API gutendex e adicionalos no banco de dados.
+- [ ] Funcionalidade 2 - Listagem dos seguintes dados de Livros
+- [ ] Funcionalidade 3 - Listagem de Autores
+- [ ] Funcionalidade 4 - Listagem de autores vivos em determinado ano
+- [ ] Funcionalidade 5 - Listagem de livros que foram escritos em um idioma específico
 
 ---
 
@@ -77,53 +67,36 @@ cd nome-do-projeto
 src/
 ├── main/
 │   ├── java/
-│   │   └── com/seuprojeto/
-│   │       ├── controller/
-│   │       ├── service/
+│   │   └── com.desafio.LiterAlura/
+│   │       ├── Main/
+│   │       ├── Model/
 │   │       ├── repository/
-│   │       └── model/
+│   │       ├──Service/
+    |           LiterAluraApplication
 │   └── resources/
 │       └── application.properties
 ```
 
 ---
 
-## ⚠️ Desafios
-
-Descreva aqui os principais desafios encontrados durante o desenvolvimento:
-
-- **Desafio 1:** Descreva o problema e como foi resolvido.
-- **Desafio 2:** Descreva o problema e como foi resolvido.
-- **Desafio 3:** Descreva o problema e como foi resolvido.
-
----
 
 ## 🔮 Melhorias Futuras
 
 Funcionalidades e melhorias planejadas para as próximas versões:
 
-- [ ] Melhoria 1 — descrição breve
-- [ ] Melhoria 2 — descrição breve
-- [ ] Melhoria 3 — descrição breve
+- [ ] Melhoria 1 — Código mais modular
+- [ ] Melhoria 2 — Implementação de novas verificações
+- [ ] Melhoria 3 — Implemetação de novas funcionalidades (Listar livros de um autor específico, Top livros mais baixados, etc)
 
 ---
 
-## 🤝 Contribuindo
+## 👤 Autor
 
-Contribuições são bem-vindas! Siga os passos abaixo:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
-3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
-4. Push para a branch (`git push origin feature/MinhaFeature`)
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+<p>
+  <img loading="lazy" width="100" height="2000" alt="octocat-1767743991527" src="https://github.com/user-attachments/assets/655c2beb-9429-4ab9-8846-ca2d24133a11"/>
+</p>
+<p>
+👨‍💻 <strong>André Neves Xavier</strong><br>
+GitHub: <a href="https://github.com/andrenevesxavier">@andrenevesxavier</a><br>
+Projeto desenvolvido para fins de estudo em Java
+</p>
