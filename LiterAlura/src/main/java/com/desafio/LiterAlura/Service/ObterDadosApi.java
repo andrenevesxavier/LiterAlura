@@ -18,8 +18,10 @@ public class ObterDadosApi {
             response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
         } catch (IOException e) {
+            System.out.println("Ocorreu um erro");
             throw new RuntimeException(e);
         } catch (InterruptedException e) {
+            System.out.println("Aconteceu um erro");
             throw new RuntimeException(e);
         }
 
